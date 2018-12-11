@@ -232,49 +232,49 @@ var questions = [{
   "option3" : "1 year",
   "option4" : "5 year",
   "answer" : "2"
-// }
-// , {
-//   "question" : "Scientists believe lupus is triggered by: ",
-//   "option1" : "A tick bite",
-//   "option2" : "Unprotected sex",
-//   "option3" : "A high-carb diet",
-//   "option4" : "None of these",
-//   "answer" : "4"
-// }, {
-//   "question" : "Among those who are misdiagnosed, what is the average number of providers a person with lupus sees before receiving a correct diagnosis?",
-//   "option1" : "9",
-//   "option2" : "6",
-//   "option3" : "4",
-//   "option4" : "1",
-//   "answer" : "3"
-// }, {
-//   "question" : "Lupus is sometimes called: ",
-//   "option1" : "The Silent Killer",
-//   "option2" : "The Butterfly Syndrome",
-//   "option3" : "Daylight Disease",
-//   "option4" : "The Great Imitator",
-//   "answer" : "4"
-// }, {
-//   "question" : "As many as two-thirds of people with lupus experience a sensitivity to ",
-//   "option1" : "Wheat",
-//   "option2" : "UV Light",
-//   "option3" : "Gluten",
-//   "option4" : "Milk",
-//   "answer" : "2"
-// }, {
-//   "question" : "Women make up what percentage of the total population with lupus?",
-//   "option1" : "10%",
-//   "option2" : "30%",
-//   "option3" : "60%",
-//   "option4" : "90%",
-//   "answer" : "4"
-// }, {
-//   "question" : "Inflammation of the kidneys can be one of the more serious complications of lupus. What percentage of adults with lupus experience this? ",
-//   "option1" : "10%",
-//   "option2" : "35%",
-//   "option3" : "60%",
-//   "option4" : "75%",
-//   "answer" : "3"
+}
+, {
+  "question" : "Scientists believe lupus is triggered by: ",
+  "option1" : "A tick bite",
+  "option2" : "Unprotected sex",
+  "option3" : "A high-carb diet",
+  "option4" : "None of these",
+  "answer" : "4"
+}, {
+  "question" : "Among those who are misdiagnosed, what is the average number of providers a person with lupus sees before receiving a correct diagnosis?",
+  "option1" : "9",
+  "option2" : "6",
+  "option3" : "4",
+  "option4" : "1",
+  "answer" : "3"
+}, {
+  "question" : "Lupus is sometimes called: ",
+  "option1" : "The Silent Killer",
+  "option2" : "The Butterfly Syndrome",
+  "option3" : "Daylight Disease",
+  "option4" : "The Great Imitator",
+  "answer" : "4"
+}, {
+  "question" : "As many as two-thirds of people with lupus experience a sensitivity to ",
+  "option1" : "Wheat",
+  "option2" : "UV Light",
+  "option3" : "Gluten",
+  "option4" : "Milk",
+  "answer" : "2"
+}, {
+  "question" : "Women make up what percentage of the total population with lupus?",
+  "option1" : "10%",
+  "option2" : "30%",
+  "option3" : "60%",
+  "option4" : "90%",
+  "answer" : "4"
+}, {
+  "question" : "Inflammation of the kidneys can be one of the more serious complications of lupus. What percentage of adults with lupus experience this? ",
+  "option1" : "10%",
+  "option2" : "35%",
+  "option3" : "60%",
+  "option4" : "75%",
+  "answer" : "3"
 } ]
 
 
