@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>ABOUT US</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="css/aboutus.css">
+<link rel="icon" type="image/ico" href="images/mediary logo.png" />
+<script src="js/aboutus.js" charset="utf-8"></script>
+<body>
+
+  <div class="container">
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-teal w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+      <div class="w3-container">
+        <div class="mediaryLogo">
+          <img src="images/mediary logo.png" alt="" style="display:block;width:96%;margin-left:auto;margin-right:auto;">
+        </div>
+        <h3 class="w3-padding-64"><b>MEDIARY</b></h3>
+      </div>
+      <div class="w3-bar-block">
+        <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+        <a href="gettoknowlupus.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Get To Know Lupus</a>
+        <a href="symptom.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Symptoms</a>
+        <a href="lupuslifehacks.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Lupus Life Hacks</a>
+        <a href="contribute.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contribute</a>
+        <a href="aboutus.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Us</a>
+      </div>
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-top w3-hide-large w3-teal w3-xlarge w3-padding">
+      <a href="javascript:void(0)" class="w3-button w3-teal w3-margin-right" onclick="w3_open()">☰</a>
+      <span>MEDIARY</span>
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+      <!-- !PAGE CONTENT! -->
+      <!-- JUST EDIT HERE -->
+      <div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+        <!-- Header -->
+        <!-- CHANGE THE TITLE HERE -->
+        <div class="w3-container" style="margin-top:80px">
+          <h1 class="w3-xxxlarge w3-text-teal"><b>About Us.</b></h1>
+          <hr style="width:50px;border:5px solid teal" class="w3-round">
+        </div>
+
+        <!-- INSERT THE CONTENT HERE -->
+        <div class="w3-container">
+
+          <!-- The Team -->
+          <div class="w3-row-padding w3-grayscale">
+            <div class="w3-col m3 w3-margin w3-card-2 w3-center">
+              <div class="w3-light-grey">
+                <img src="images/man.png" alt="Aqmal" style="width:96%">
+                <div class="w3-container">
+                  <h3>Muhammad Nur Aqmal</h3>
+                  <p class="w3-opacity">Technologist</p>
+                  <p>A full-time student who is building career and expertise in the field of Information and Communication Technology at IIUM</p>
+                  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-green w3-block">Contact</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-col m3 w3-margin w3-card-2 w3-center">
+              <div class="w3-light-grey">
+                <img src="images/girl.png" alt="Maryam" style="width:96%">
+                <div class="w3-container">
+                  <h3>Maryam Roslan</h3>
+                  <p class="w3-opacity">Designer</p>
+                  <p>A full-time student who is passionate about software engineering, exploring new knowledge in the field of computer science.</p>
+
+                  <button onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-green w3-block">Contact</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-col m3 w3-margin w3-card-2 w3-center">
+              <div class="w3-light-grey">
+                <img src="images/miras.png" alt="Miras" style="width:96%">
+                <div class="w3-container">
+                  <h3>Amira Sufiya Radzi</h3>
+                  <p class="w3-opacity">Analyst</p>
+                  <p>A Information Technology student from IIUM, extremely motivated to constantly develop my skills and grow professionally</p>
+
+                  <button onclick="document.getElementById('id03').style.display='block'" class="w3-button w3-green w3-block">Contact</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="id01" class="w3-modal w3-animate-opacity w3-center">
+            <div class="w3-modal-content w3-card-4">
+              <header class="w3-container w3-teal">
+                <h3>Contact Aqmal</h3>
+              </header>
+              <div class="w3-container">
+                <p>+60123456789</p>
+                <p>aqmal.khatiman@iium.live.edu.my</p>
+              </div>
+              <footer class="w3-container w3-teal">
+                <span onclick="document.getElementById('id01').style.display='none'"
+                class="w3-button w3-large w3-display-bottom">CLOSE</span>
+              </footer>
+            </div>
+          </div>
+
+              <div id="id03" class="w3-modal w3-animate-opacity w3-center">
+            <div class="w3-modal-content w3-card-4">
+              <header class="w3-container w3-teal">
+                <h3>Contact Amira</h3>
+              </header>
+              <div class="w3-container">
+                <p>+60123456789</p>
+                <p>amira.sufiya@iium.live.edu.my</p>
+              </div>
+              <footer class="w3-container w3-teal">
+                <span onclick="document.getElementById('id03').style.display='none'"
+                class="w3-button w3-large w3-display-bottom">CLOSE</span>
+              </footer>
+            </div>
+          </div>
+
+          <div id="id02" class="w3-modal w3-animate-opacity w3-center">
+            <div class="w3-modal-content w3-card-4">
+              <header class="w3-container w3-teal">
+                <h3>Contact Maryam</h3>
+              </header>
+              <div class="w3-container">
+                <p>+60123456789</p>
+                <p>maryam.roslan@iium.live.edu.my</p>
+              </div>
+              <footer class="w3-container w3-teal">
+                <span onclick="document.getElementById('id02').style.display='none'"
+                class="w3-button w3-large w3-display-bottom">CLOSE</span>
+              </footer>
+            </div>
+          </div>
+
+
+        </div>
+
+      <!-- End page content -->
+      </div>
+
+    <!-- W3.CSS Container -->
+    <div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Mediary IIUM 2018</p></div>
+
+  </div>
+
+</body>
+</html>

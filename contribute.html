@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>CONTRIBUTE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="css/contribute.css">
+<link rel="icon" type="image/ico" href="images/mediary logo.png" />
+<script src="js/contribute.js" charset="utf-8"></script>
+<body>
+
+  <div class="container">
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-teal w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+      <div class="w3-container">
+        <div class="mediaryLogo">
+          <img src="images/mediary logo.png" alt="" style="display:block;width:96%;margin-left:auto;margin-right:auto;">
+        </div>
+        <h3 class="w3-padding-64"><b>MEDIARY</b></h3>
+      </div>
+      <div class="w3-bar-block">
+        <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+        <a href="gettoknowlupus.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Get To Know Lupus</a>
+        <a href="symptom.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Symptoms</a>
+        <a href="lupuslifehacks.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Lupus Life Hacks</a>
+        <a href="contribute.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contribute</a>
+        <a href="aboutus.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Us</a>
+      </div>
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-top w3-hide-large w3-teal w3-xlarge w3-padding">
+      <a href="javascript:void(0)" class="w3-button w3-teal w3-margin-right" onclick="w3_open()">☰</a>
+      <span>MEDIARY</span>
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+      <!-- !PAGE CONTENT! -->
+      <!-- JUST EDIT HERE -->
+      <div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+        <!-- Header -->
+        <!-- CHANGE THE TITLE HERE -->
+        <div class="w3-container" style="margin-top:80px">
+          <h1 class="w3-xxxlarge w3-text-teal"><b>Contribute.</b></h1>
+          <hr style="width:50px;border:5px solid teal" class="w3-round">
+        </div>
+
+        <!-- INSERT THE CONTENT HERE -->
+        <div class="w3-container">
+          <div class="w3-row w3-center w3-card w3-padding">
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Volunteer');" id="myLink">
+              <div class="w3-button w3-col s6 tablink">Contribute</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Donate');">
+              <div class="w3-button w3-col s6 tablink">Donate</div>
+            </a>
+          </div>
+
+          <div id="Volunteer" class="w3-pale-blue w3-container menu w3-padding-48 w3-card">
+            <h5>Would you like to be a part of us? Sign up now as a volunteer!</h5>
+            <form action="/action_page.php" target="_blank">
+              <div class="w3-section">
+                <label>Name</label>
+                <input class="w3-input w3-border" type="text" name="Name" required>
+              </div>
+              <div class="w3-section">
+                <label>Email</label>
+                <input class="w3-input w3-border" type="text" name="Email" required>
+              </div>
+              <div class="w3-section">
+                <label>Contact Number</label>
+                <input class="w3-input w3-border" type="text" name="Contact Number" required>
+              </div>
+              <div class="w3-section">
+                <label>Address</label>
+                <input class="w3-input w3-border" type="text" name="Address" required>
+              </div>
+              <button type="submit" class="w3-button w3-block w3-padding-large w3-teal w3-margin-bottom">Submit</button>
+            </form>
+          </div>
+
+          <div id="Donate" class="w3-pale-red w3-container menu w3-padding-48 w3-card">
+            <h5>Would you like to be a part of us? Sign up now as a volunteer!</h5>
+            <form action="/action_page.php" target="_blank">
+              <div class="w3-section">
+                <label>Name</label>
+                <input class="w3-input w3-border" type="text" name="Name" required>
+              </div>
+              <div class="w3-section">
+                <label>Email</label>
+                <input class="w3-input w3-border" type="text" name="Email" required>
+              </div>
+              <div class="w3-section">
+                <label>Contact Number</label>
+                <input class="w3-input w3-border" type="text" name="Contact Number" required>
+              </div>
+              <div class="w3-section">
+                <label>Address</label>
+                <input class="w3-input w3-border" type="text" name="Address" required>
+              </div>
+              <div class="w3-section">
+                <h6>Your gift amount:</h6>
+                <button type="submit" class="w3-button w3-bar-item w3-padding-small w3-teal" style="width:19%;">RM10</button>
+                <button type="submit" class="w3-button w3-bar-item w3-padding-small w3-teal" style="width:19%;">RM20</button>
+                <button type="submit" class="w3-button w3-bar-item w3-padding-small w3-teal" style="width:19%;">RM50</button>
+                <button type="submit" class="w3-button w3-bar-item w3-padding-small w3-teal" style="width:19%;">RM100</button>
+                <button type="submit" class="w3-button w3-bar-item w3-padding-small w3-teal" style="width:19%;">RM200</button>
+              </div>
+              <div class="w3-section">
+                <h6>Would you like to:</h6>
+                <input  style="margin:10px;" type="checkbox" name="option1" value="choice1">make this a monthly gift?<br>
+                <input  style="margin:10px;" type="checkbox" name="option2" value="choice2">make this a honor or memorial gift?<br>
+              </div>
+              <div class="w3-section">
+                <h6>Payment Method:</h6>
+                <button type="submit" class="w3-button w3-bar-item w3-padding-small w3-teal" style="width:19%;">Credit Card</button>
+                <button type="submit" class="w3-button w3-bar-item w3-padding-small w3-teal" style="width:19%;">Debit Card</button>
+              </div>
+
+              <button type="submit" class="w3-button w3-block w3-padding-large w3-teal w3-margin-bottom">Donate</button>
+            </form>
+          </div>
+
+
+        </div>
+
+      <!-- End page content -->
+      </div>
+
+    <!-- W3.CSS Container -->
+    <div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Mediary IIUM 2018</p></div>
+
+  </div>
+
+</body>
+</html>
