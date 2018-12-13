@@ -18,3 +18,8 @@ body {
 .w3-half img:hover{
   opacity:1
 }
+
+HTML,BODY{
+  cursor: url("http://downloads.totallyfreecursors.com/cursor_files/flowerani.cur"),
+  url("http://downloads.totallyfreecursors.com/thumbnails/flower.gif"), auto;
+}
