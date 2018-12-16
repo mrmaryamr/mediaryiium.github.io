@@ -53,80 +53,41 @@
 
         <!-- INSERT THE CONTENT HERE -->
         <div class="w3-container">
-          <div class="w3-row w3-center w3-card w3-padding">
-            <a href="javascript:void(0)" onclick="openMenu(event, 'Volunteer');" id="myLink">
-              <div class="w3-button w3-col s6 tablink">Contribute</div>
-            </a>
-            <a href="javascript:void(0)" onclick="openMenu(event, 'Donate');">
-              <div class="w3-button w3-col s6 tablink">Donate</div>
-            </a>
-          </div>
+          <img src="images/volunteer.png " alt="">
 
-          <div id="Volunteer" class="w3-pale-blue w3-container menu w3-padding-48 w3-card">
-            <h5>Would you like to be a part of us? Sign up now as a volunteer!</h5>
-            <form action="/action_page.php" target="_blank">
-              <div class="w3-section">
-                <label>Name</label>
-                <input class="w3-input w3-border" type="text" name="Name" required>
-              </div>
-              <div class="w3-section">
+          <div class="w3-card-4">
+            <div class="w3-container w3-green">
+              <h2>Register as a volunteer</h2>
+            </div>
+
+            <form class="w3-container" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSd8f-h-XJj2TosSyxw-1XSaDA0lHMCrtV760bo4FAuII2FNXQ/formResponse" target="_blank" method="POST">
+              <p>
+                <input class="w3-input" type="text" name="entry.95024446">
+                <label>First Name</label>
+              </p>
+              <p>
+                <input class="w3-input" type="text" name="entry.511001540">
+                <label>Last Name</label>
+              </p>
+              <p>
+                <input class="w3-input" type="text" name="entry.1326343103">
+                <label>Phone No</label>
+              </p>
+              <p>
+                <input class="w3-input" type="text" name="entry.757090075">
                 <label>Email</label>
-                <input class="w3-input w3-border" type="text" name="Email" required>
-              </div>
-              <div class="w3-section">
-                <label>Contact Number</label>
-                <input class="w3-input w3-border" type="text" name="Contact Number" required>
-              </div>
-              <div class="w3-section">
+              </p>
+              <p>
+                <input class="w3-input" type="text" name="entry.913602802">
                 <label>Address</label>
-                <input class="w3-input w3-border" type="text" name="Address" required>
-              </div>
-              <button type="submit" class="w3-button w3-block w3-padding-large w3-teal w3-margin-bottom">Submit</button>
+              </p>
+
+              <button class="w3-btn w3-blue w3-block" type="submit">Register</button>
+              <br>
+              <button class="w3-btn w3-blue w3-block" type="reset">Reset</button>
+              <p></p>
             </form>
           </div>
-
-          <div id="Donate" class="w3-pale-red w3-container menu w3-padding-48 w3-card">
-            <h5>Would you like to be a part of us? Sign up now as a volunteer!</h5>
-            <form action="/action_page.php" target="_blank">
-              <div class="w3-section">
-                <label>Name</label>
-                <input class="w3-input w3-border" type="text" name="Name" required>
-              </div>
-              <div class="w3-section">
-                <label>Email</label>
-                <input class="w3-input w3-border" type="text" name="Email" required>
-              </div>
-              <div class="w3-section">
-                <label>Contact Number</label>
-                <input class="w3-input w3-border" type="text" name="Contact Number" required>
-              </div>
-              <div class="w3-section">
-                <label>Address</label>
-                <input class="w3-input w3-border" type="text" name="Address" required>
-              </div>
-              <div class="w3-section">
-                <h6>Your gift amount:</h6>
-                <button type="submit" class="w3-button w3-bar-item w3-padding-small w3-teal" style="width:19%;">RM10</button>
-                <button type="submit" class="w3-button w3-bar-item w3-padding-small w3-teal" style="width:19%;">RM20</button>
-                <button type="submit" class="w3-button w3-bar-item w3-padding-small w3-teal" style="width:19%;">RM50</button>
-                <button type="submit" class="w3-button w3-bar-item w3-padding-small w3-teal" style="width:19%;">RM100</button>
-                <button type="submit" class="w3-button w3-bar-item w3-padding-small w3-teal" style="width:19%;">RM200</button>
-              </div>
-              <div class="w3-section">
-                <h6>Would you like to:</h6>
-                <input  style="margin:10px;" type="checkbox" name="option1" value="choice1">make this a monthly gift?<br>
-                <input  style="margin:10px;" type="checkbox" name="option2" value="choice2">make this a honor or memorial gift?<br>
-              </div>
-              <div class="w3-section">
-                <h6>Payment Method:</h6>
-                <button type="submit" class="w3-button w3-bar-item w3-padding-small w3-teal" style="width:19%;">Credit Card</button>
-                <button type="submit" class="w3-button w3-bar-item w3-padding-small w3-teal" style="width:19%;">Debit Card</button>
-              </div>
-
-              <button type="submit" class="w3-button w3-block w3-padding-large w3-teal w3-margin-bottom">Donate</button>
-            </form>
-          </div>
-
 
         </div>
 
