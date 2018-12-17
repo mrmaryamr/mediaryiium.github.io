@@ -295,10 +295,10 @@ var resultCont = document.getElementById('result');
 function loadQuestion (questionIndex) {
   var q = questions [questionIndex];
   questionEl.textContent = (questionIndex + 1) + '. ' + q.question;
-  opt1.textContent = q.option1;
-  opt2.textContent = q.option2;
-  opt3.textContent = q.option3;
-  opt4.textContent = q.option4;
+  opt1.innerHTML = q.option1;
+  opt2.innerHTML = q.option2;
+  opt3.innerHTML = q.option3;
+  opt4.innerHTML = q.option4;
 };
 
 function loadNextQuestion() {
